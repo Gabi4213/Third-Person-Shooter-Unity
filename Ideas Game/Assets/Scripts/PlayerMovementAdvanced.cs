@@ -11,19 +11,15 @@ public class PlayerMovementAdvanced : MonoBehaviour
     private float lastDesiredMoveSpeed;
     public float walkSpeed;
     public float sprintSpeed;
-    public float slideSpeed;
-    public float wallrunSpeed;
-    public float climbSpeed;
-    public float vaultSpeed;
     public float airMinSpeed;
-
-    [Header("Animator")]
-    public Animator animator;
 
     public float speedIncreaseMultiplier;
     public float slopeIncreaseMultiplier;
 
     public float groundDrag;
+
+    [Header("Animator")]
+    public Animator animator;
 
     [Header("Jumping")]
     public float jumpForce;
@@ -31,15 +27,9 @@ public class PlayerMovementAdvanced : MonoBehaviour
     public float airMultiplier;
     bool readyToJump;
 
-    [Header("Crouching")]
-    public float crouchSpeed;
-    public float crouchYScale;
-    private float startYScale;
-
     [Header("Keybinds")]
     public KeyCode jumpKey = KeyCode.Space;
     public KeyCode sprintKey = KeyCode.LeftShift;
-    public KeyCode crouchKey = KeyCode.LeftControl;
 
     [Header("Ground Check")]
     public float playerHeight;
@@ -67,19 +57,8 @@ public class PlayerMovementAdvanced : MonoBehaviour
         unlimited,
         walking,
         sprinting,
-        wallrunning,
-        climbing,
-        vaulting,
-        crouching,
-        sliding,
         air
     }
-
-    public bool sliding;
-    public bool crouching;
-    public bool wallrunning;
-    public bool climbing;
-    public bool vaulting;
 
     public bool freeze;
     public bool unlimited;
@@ -95,8 +74,6 @@ public class PlayerMovementAdvanced : MonoBehaviour
         rb.freezeRotation = true;
 
         readyToJump = true;
-
-        startYScale = transform.localScale.y;
     }
 
     private void Update()
@@ -110,7 +87,7 @@ public class PlayerMovementAdvanced : MonoBehaviour
         TextStuff();
 
         // handle drag
-        if (state == MovementState.walking || state == MovementState.sprinting || state == MovementState.crouching)
+        if (state == MovementState.walking || state == MovementState.sprinting)
             rb.drag = groundDrag;
         else
             rb.drag = 0;
@@ -145,23 +122,6 @@ public class PlayerMovementAdvanced : MonoBehaviour
 
             Invoke(nameof(ResetJump), jumpCooldown);
         }
-
-        // start crouch
-        if (Input.GetKeyDown(crouchKey) && horizontalInput == 0 && verticalInput == 0)
-        {
-            transform.localScale = new Vector3(transform.localScale.x, crouchYScale, transform.localScale.z);
-            rb.AddForce(Vector3.down * 5f, ForceMode.Impulse);
-
-            crouching = true;
-        }
-
-        // stop crouch
-        if (Input.GetKeyUp(crouchKey))
-        {
-            transform.localScale = new Vector3(transform.localScale.x, startYScale, transform.localScale.z);
-
-            crouching = false;
-        }
     }
 
     bool keepMomentum;
@@ -180,50 +140,6 @@ public class PlayerMovementAdvanced : MonoBehaviour
         {
             state = MovementState.unlimited;
             desiredMoveSpeed = 999f;
-        }
-
-        // Mode - Vaulting
-        else if (vaulting)
-        {
-            state = MovementState.vaulting;
-            desiredMoveSpeed = vaultSpeed;
-        }
-
-        // Mode - Climbing
-        else if (climbing)
-        {
-            state = MovementState.climbing;
-            desiredMoveSpeed = climbSpeed;
-        }
-
-        // Mode - Wallrunning
-        else if (wallrunning)
-        {
-            state = MovementState.wallrunning;
-            desiredMoveSpeed = wallrunSpeed;
-        }
-
-        // Mode - Sliding
-        else if (sliding)
-        {
-            state = MovementState.sliding;
-
-            // increase speed by one every second
-            if (OnSlope() && rb.velocity.y < 0.1f)
-            {
-                desiredMoveSpeed = slideSpeed;
-                keepMomentum = true;
-            }
-
-            else
-                desiredMoveSpeed = sprintSpeed;
-        }
-
-        // Mode - Crouching
-        else if (crouching)
-        {
-            state = MovementState.crouching;
-            desiredMoveSpeed = crouchSpeed;
         }
 
         // Mode - Sprinting
@@ -320,9 +236,6 @@ public class PlayerMovementAdvanced : MonoBehaviour
         // in air
         else if (!grounded)
             rb.AddForce(moveDirection.normalized * moveSpeed * 10f * airMultiplier, ForceMode.Force);
-
-        // turn gravity off while on slope
-        if(!wallrunning) rb.useGravity = !OnSlope();
     }
 
     private void SpeedControl()
