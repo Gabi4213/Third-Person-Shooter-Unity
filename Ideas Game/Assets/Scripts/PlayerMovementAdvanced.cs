@@ -106,6 +106,7 @@ public class PlayerMovementAdvanced : MonoBehaviour
 
         // Set the "Speed" parameter in the animator
         animator.SetFloat("Speed", speedMagnitude);
+        animator.SetBool("Grounded", grounded);
     }
 
     private void MyInput()

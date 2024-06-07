@@ -761,18 +761,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4dcbfeee61abc004ab8f82503b51926d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  orientation: {fileID: 1423536418}
-  playerObj: {fileID: 1601777832}
-  rb: {fileID: 0}
-  pm: {fileID: 0}
-  maxSlideTime: 0.75
-  slideForce: 200
-  slideTimer: 0
-  slideYScale: 0.5
-  startYScale: 0
-  slideKey: 306
-  horizontalInput: 0
-  verticalInput: 0
 --- !u!114 &374406271
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1024,6 +1012,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 390932494}
   m_CullTransparentMesh: 1
+--- !u!1 &413212507
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 413212508}
+  m_Layer: 0
+  m_Name: ProjectileSpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &413212508
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 413212507}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.023, y: 1.94, z: -0.042}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 556640214005385460}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &444120275
 GameObject:
   m_ObjectHideFlags: 0
@@ -1808,7 +1827,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 651037455}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.04763204, y: 0.00000044773114, z: -0.000000021322672, w: 0.998865}
+  m_LocalRotation: {x: 0.047632247, y: 0.00000044772676, z: -0.00000002132578, w: 0.998865}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2405,18 +2424,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1fe65e6962f75c49b933f88cea75693, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  orientation: {fileID: 2070159565}
-  playerObj: {fileID: 1869075352}
-  rb: {fileID: 0}
-  pm: {fileID: 0}
-  maxSlideTime: 2
-  slideForce: 200
-  slideTimer: 0
-  slideYScale: 0.5
-  startYScale: 0
-  slideKey: 306
-  horizontalInput: 0
-  verticalInput: 0
 --- !u!114 &910256006
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2429,44 +2436,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ce582ecafeec7a42a8b1b75e9655c58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  whatIsWall:
-    m_Bits: 0
-  whatIsGround:
-    m_Bits: 0
-  wallRunForce: 200
-  wallRunJumpUpForce: 7
-  wallRunJumpSideForce: 7
-  maxWallRunTime: 1
-  wallClimbSpeed: 0
-  wallRunTimer: 0
-  jumpKey: 32
-  upwardsRunKey: 304
-  downwardsRunKey: 306
-  upwardsRunning: 0
-  downwardsRunning: 0
-  horizontalInput: 0
-  verticalInput: 0
-  doJumpOnEndOfTimer: 0
-  resetDoubleJumpsOnNewWall: 1
-  resetDoubleJumpsOnEveryWall: 0
-  allowedWallJumps: 1
-  wallCheckDistance: 0.7
-  minJumpHeight: 2
-  exitWallTime: 0.2
-  exitWallTimer: 0
-  useGravity: 0
-  yDrossleSpeed: 0
-  orientation: {fileID: 0}
-  camT: {fileID: 0}
-  pm: {fileID: 0}
-  rb: {fileID: 0}
-  wallLeft: 0
-  wallRight: 0
-  exitingWall: 0
-  wallRemembered: 0
-  lastWall: {fileID: 0}
-  wallJumpsDone: 0
-  text_wallState: {fileID: 0}
 --- !u!114 &910256007
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2479,44 +2448,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 649df843cdc557f43a30781b250a4762, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  whatIsWall:
-    m_Bits: 1536
-  whatIsGround:
-    m_Bits: 1536
-  wallRunForce: 200
-  wallRunJumpUpForce: 7
-  wallRunJumpSideForce: 14
-  maxWallRunTime: 1.5
-  wallClimbSpeed: 4
-  wallRunTimer: 0
-  jumpKey: 32
-  upwardsRunKey: 304
-  downwardsRunKey: 306
-  upwardsRunning: 0
-  downwardsRunning: 0
-  horizontalInput: 0
-  verticalInput: 0
-  doJumpOnEndOfTimer: 0
-  resetDoubleJumpsOnNewWall: 1
-  resetDoubleJumpsOnEveryWall: 0
-  allowedWallJumps: 1
-  wallCheckDistance: 0.7
-  minJumpHeight: 2
-  exitingWall: 0
-  exitWallTime: 0.2
-  exitWallTimer: 0
-  useGravity: 1
-  gravityCounterForce: 20
-  yDrossleSpeed: 0
-  orientation: {fileID: 2070159565}
-  pm: {fileID: 0}
-  rb: {fileID: 0}
-  wallLeft: 0
-  wallRight: 0
-  wallRemembered: 0
-  lastWall: {fileID: 0}
-  wallJumpsDone: 0
-  text_wallState: {fileID: 0}
 --- !u!114 &910256009
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2633,51 +2564,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c4379f0b375b274a8e262e289d08759, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  whatIsWall:
-    m_Bits: 1536
-  whatIsGround:
-    m_Bits: 1536
-  wallRunForce: 200
-  wallRunJumpUpForce: 7
-  wallRunJumpSideForce: 7
-  maxWallRunTime: 1
-  wallClimbSpeed: 0
-  wallRunTimer: 0
-  jumpKey: 32
-  upwardsRunKey: 304
-  downwardsRunKey: 306
-  upwardsRunning: 0
-  downwardsRunning: 0
-  horizontalInput: 0
-  verticalInput: 0
-  doJumpOnEndOfTimer: 0
-  resetDoubleJumpsOnNewWall: 1
-  resetDoubleJumpsOnEveryWall: 0
-  allowedWallJumps: 1
-  wallCheckDistance: 0.7
-  minJumpHeight: 2
-  exitingWall: 0
-  exitWallTime: 0.2
-  exitWallTimer: 0
-  useGravity: 0
-  gravityCounterForce: 0
-  yDrossleSpeed: 0
-  orientation: {fileID: 2070159565}
-  pm: {fileID: 0}
-  rb: {fileID: 0}
-  wallLeft: 0
-  wallRight: 0
-  wallRemembered: 0
-  lastWall: {fileID: 0}
-  wallJumpsDone: 0
-  text_wallState: {fileID: 0}
-  cam: {fileID: 1460045734}
-  camHolder: {fileID: 1440005209}
-  markerSphere: {fileID: 444120279}
-  someSecondSphere: {fileID: 67988311}
-  maxJumpRange: 3.5
-  maxJumpHeight: 2
-  text_predictionState: {fileID: 1817128475}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -2689,7 +2575,6 @@ GameObject:
   - component: {fileID: 963194228}
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
-  - component: {fileID: 963194229}
   - component: {fileID: 963194231}
   - component: {fileID: 963194230}
   m_Layer: 0
@@ -2773,18 +2658,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1400484299}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &963194229
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 963194225}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 948f4100a11a5c24981795d21301da5c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &963194230
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2828,7 +2701,7 @@ MonoBehaviour:
   player: {fileID: 1623225822}
   playerObj: {fileID: 476418634}
   rb: {fileID: 1623225823}
-  rotationSpeed: 7
+  rotationSpeed: 50
   combatLookAt: {fileID: 307554722}
   thirdPersonCam: {fileID: 1253112400}
   combatCam: {fileID: 540627932}
@@ -5050,8 +4923,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3d7a4061c8330846a3b417daac75b24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTimer: 1
+  projectilePrefab: {fileID: 3070717638896524386, guid: 73717813e819c924bb0b985f63665dbd, type: 3}
+  shootingPoint: {fileID: 413212508}
+  model: {fileID: 476418630}
   anim: {fileID: 7584091315085842591}
+  projectileSpeed: 20
+  attackSpeed: 1
+  canShoot: 1
 --- !u!43 &1644010909
 Mesh:
   m_ObjectHideFlags: 0
@@ -6882,6 +6760,7 @@ Transform:
   m_Children:
   - {fileID: 6394797668658931486}
   - {fileID: 6561395725959812323}
+  - {fileID: 413212508}
   m_Father: {fileID: 6241544576237427533}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &571551326804335279
@@ -15740,7 +15619,7 @@ Transform:
   m_GameObject: {fileID: 6742782440492997460}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0.4353595, y: 1.1152333, z: -0.013599129}
+  m_LocalPosition: {x: -0.4353595, y: 1.115233, z: -0.013599129}
   m_LocalScale: {x: 0.01, y: 0.01, z: 0.011674617}
   m_ConstrainProportionsScale: 0
   m_Children:
