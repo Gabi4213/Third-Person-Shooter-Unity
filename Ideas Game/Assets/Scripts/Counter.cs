@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class Counter : MonoBehaviour
 {
@@ -76,5 +77,10 @@ public class Counter : MonoBehaviour
         int seconds = Mathf.FloorToInt(time % 60);
         int milliseconds = Mathf.FloorToInt((time * 1000) % 1000);
         return string.Format("{0:00}:{1:00}:{2:000}", minutes, seconds, milliseconds);
+    }
+
+    public void MainMenu()
+    {
+        SceneManager.LoadScene(0);
     }
 }

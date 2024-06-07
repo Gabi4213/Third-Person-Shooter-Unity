@@ -9,7 +9,13 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: a048203ff725654418555118dd588be9
   - enabled: 1
-    path: Assets/Scenes/ThirdPersonMovement.unity
+    path: Assets/Scenes/Orange.unity
+    guid: 1cba738093d68774ab6d72a630a413da
+  - enabled: 1
+    path: Assets/Scenes/Strawberry.unity
+    guid: e96ea0eafc220524590b213da3bb428c
+  - enabled: 1
+    path: Assets/Scenes/Watermelon.unity
     guid: 3c55b3bf431797a4fbdb9e6c4d7b0701
   - enabled: 1
     path: Assets/Scenes/GameOver.unity

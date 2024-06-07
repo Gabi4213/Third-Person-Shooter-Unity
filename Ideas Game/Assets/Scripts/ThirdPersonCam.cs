@@ -34,7 +34,12 @@ public class ThirdPersonCam : MonoBehaviour
 
     private void Update()
     {
-        if (PlayerMovementAdvanced.gamOver) return;
+        if (PlayerMovementAdvanced.gamOver)
+        {
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+            return;
+        }
 
         // switch styles
         if (Input.GetKeyDown(KeyCode.Alpha1)) SwitchCameraStyle(CameraStyle.Basic);
