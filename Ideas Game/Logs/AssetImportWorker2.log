@@ -2297,3 +2297,16 @@ AssetImportParameters requested are different than current active one (requested
   custom:scripting/monoscript/fileName/Strawberry.cs: 5339dfe84d3de0539ce72f02aebc583f -> b01230cbb3dd6aed6939c21b6338ca9f
   custom:scripting/monoscript/fileName/ThirdPersonCamera.cs: 2c2025ecb22a29d0f156eb7b1f1b7100 -> 559e98b455aa331e3dbbc4a3e05e36cf
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2232.676614 seconds.
+  path: Assets/Materials/Watermelon/OrangeBody.mat
+  artifactKey: Guid(f8a803ff0013a6d49bbe8ceb9708424d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Watermelon/OrangeBody.mat using Guid(f8a803ff0013a6d49bbe8ceb9708424d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2153856fd558cd34d47bec529b777498') in 0.085688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
