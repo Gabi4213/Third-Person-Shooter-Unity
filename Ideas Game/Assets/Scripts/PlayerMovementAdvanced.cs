@@ -18,6 +18,10 @@ public class PlayerMovementAdvanced : MonoBehaviour
 
     public float groundDrag;
 
+    [Header("Particle Systems")]
+    public ParticleSystem jumpParticle;
+    public ParticleSystem dustTrail;
+
     [Header("Animator")]
     public Animator animator;
 
@@ -65,9 +69,6 @@ public class PlayerMovementAdvanced : MonoBehaviour
     
     public bool restricted;
 
-    public TextMeshProUGUI text_speed;
-    public TextMeshProUGUI text_mode;
-
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -84,7 +85,6 @@ public class PlayerMovementAdvanced : MonoBehaviour
         MyInput();
         SpeedControl();
         StateHandler();
-        TextStuff();
 
         // handle drag
         if (state == MovementState.walking || state == MovementState.sprinting)
@@ -103,6 +103,11 @@ public class PlayerMovementAdvanced : MonoBehaviour
     {
         // Calculate speed magnitude
         float speedMagnitude = rb.velocity.magnitude;
+
+        if(speedMagnitude > 0.1f && grounded)
+        {
+            dustTrail.Play();
+        }
 
         // Set the "Speed" parameter in the animator
         animator.SetFloat("Speed", speedMagnitude);
@@ -232,7 +237,9 @@ public class PlayerMovementAdvanced : MonoBehaviour
 
         // on ground
         else if (grounded)
+        {
             rb.AddForce(moveDirection.normalized * moveSpeed * 10f, ForceMode.Force);
+        }
 
         // in air
         else if (!grounded)
@@ -264,6 +271,7 @@ public class PlayerMovementAdvanced : MonoBehaviour
 
     private void Jump()
     {
+        jumpParticle.Play();
         exitingSlope = true;
 
         // reset y velocity
@@ -292,19 +300,6 @@ public class PlayerMovementAdvanced : MonoBehaviour
     public Vector3 GetSlopeMoveDirection(Vector3 direction)
     {
         return Vector3.ProjectOnPlane(direction, slopeHit.normal).normalized;
-    }
-
-    private void TextStuff()
-    {
-        Vector3 flatVel = new Vector3(rb.velocity.x, 0f, rb.velocity.z);
-
-        if (OnSlope())
-            text_speed.SetText("Speed: " + Round(rb.velocity.magnitude, 1) + " / " + Round(moveSpeed, 1));
-
-        else
-            text_speed.SetText("Speed: " + Round(flatVel.magnitude, 1) + " / " + Round(moveSpeed, 1));
-
-        text_mode.SetText(state.ToString());
     }
 
     public static float Round(float value, int digits)

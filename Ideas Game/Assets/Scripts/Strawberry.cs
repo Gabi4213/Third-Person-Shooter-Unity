@@ -7,6 +7,8 @@ public class Strawberry : MonoBehaviour
     public Transform shootingPoint; // The point from where the projectile will be shot
     public GameObject model; // The model to rotate
     public Animator anim;
+
+    public ParticleSystem handParticle;
     public float projectileSpeed = 10f; // Speed of the projectile
     public float attackSpeed = 1f;
 
@@ -50,6 +52,7 @@ public class Strawberry : MonoBehaviour
 
     IEnumerator ShootEnumerator()
     {
+        handParticle.Play();
         anim.SetTrigger("Attack");
         canShoot = false;
         yield return new WaitForSeconds(attackSpeed);
