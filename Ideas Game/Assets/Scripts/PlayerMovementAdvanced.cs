@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovementAdvanced : MonoBehaviour
 {
@@ -45,12 +46,15 @@ public class PlayerMovementAdvanced : MonoBehaviour
     private RaycastHit slopeHit;
     private bool exitingSlope;
 
+    public static bool gamOver = false;
+
     public Transform orientation;
 
     float horizontalInput;
     float verticalInput;
 
     Vector3 moveDirection;
+    Vector3 currentPos;
 
     Rigidbody rb;
 
@@ -79,22 +83,33 @@ public class PlayerMovementAdvanced : MonoBehaviour
 
     private void Update()
     {
-        // ground check
-        grounded = Physics.Raycast(transform.position, Vector3.down, playerHeight * 0.5f + 0.2f, whatIsGround);
-
-        MyInput();
-        SpeedControl();
-        StateHandler();
-
-        // handle drag
-        if (state == MovementState.walking || state == MovementState.sprinting)
-            rb.drag = groundDrag;
+        if (gamOver)
+        {
+            transform.position = currentPos;
+            rb.velocity = Vector3.zero;           
+            state = MovementState.freeze;
+        }
         else
-            rb.drag = 0;
+        {
+            currentPos = transform.position;
+            // ground check
+            grounded = Physics.Raycast(transform.position, Vector3.down, playerHeight * 0.5f + 0.2f, whatIsGround);
+
+            MyInput();
+            SpeedControl();
+            StateHandler();
+
+            // handle drag
+            if (state == MovementState.walking || state == MovementState.sprinting)
+                rb.drag = groundDrag;
+            else
+                rb.drag = 0;
+        }
     }
 
     private void FixedUpdate()
     {
+        if (gamOver) return;
         MovePlayer();
         UpdateAnimatorParameters();
     }
@@ -306,5 +321,13 @@ public class PlayerMovementAdvanced : MonoBehaviour
     {
         float mult = Mathf.Pow(10.0f, (float)digits);
         return Mathf.Round(value * mult) / mult;
+    }
+
+    private void OnCollisionEnter(Collision other)
+    {
+        if(other.gameObject.tag == "Enemy")
+        {
+            gamOver = true;
+        }
     }
 }

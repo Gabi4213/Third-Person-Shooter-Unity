@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Runtime.Serialization.Formatters;
 using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Hovl_Laser : MonoBehaviour
 {
@@ -41,6 +42,7 @@ public class Hovl_Laser : MonoBehaviour
 
     void Update()
     {
+        if (PlayerMovementAdvanced.gamOver) return;
         //if (Laser.material.HasProperty("_SpeedMainTexUVNoiseZW")) Laser.material.SetVector("_SpeedMainTexUVNoiseZW", LaserSpeed);
         //SetVector("_TilingMainTexUVNoiseZW", Length); - old code, _TilingMainTexUVNoiseZW no more exist
         Laser.material.SetTextureScale("_MainTex", new Vector2(Length[0], Length[1]));                    
@@ -69,6 +71,13 @@ public class Hovl_Laser : MonoBehaviour
                 //Texture tiling
                 Length[0] = MainTextureLength * (Vector3.Distance(transform.position, hit.point));
                 Length[2] = NoiseTextureLength * (Vector3.Distance(transform.position, hit.point));
+
+
+                if(hit.transform.tag == "Player")
+                {
+                    PlayerMovementAdvanced.gamOver = true;
+                }
+
                 //Texture speed balancer {DISABLED AFTER UPDATE}
                 //LaserSpeed[0] = (LaserStartSpeed[0] * 4) / (Vector3.Distance(transform.position, hit.point));
                 //LaserSpeed[2] = (LaserStartSpeed[2] * 4) / (Vector3.Distance(transform.position, hit.point));
