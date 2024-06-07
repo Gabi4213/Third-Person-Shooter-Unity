@@ -22,4 +22,20 @@ public class Projectile : MonoBehaviour
         yield return new WaitForSeconds(2.0f);
         Destroy(gameObject);
     }
+
+    IEnumerator DestroyParticleOnCollision()
+    {
+        mesh.enabled = false;
+        destroyParticle.Play();
+        yield return new WaitForSeconds(2.0f);
+        Destroy(gameObject);
+    }
+
+
+
+    private void OnCollisionEnter(Collision other)
+    {
+        if (other.gameObject.tag == "Player" || other.gameObject.tag == "Projectile") return;
+        StartCoroutine(DestroyParticleOnCollision());
+    }
 }

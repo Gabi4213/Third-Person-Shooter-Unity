@@ -2548,3 +2548,449 @@ AssetImportParameters requested are different than current active one (requested
   custom:scripting/monoscript/fileName/Strawberry.cs: 5339dfe84d3de0539ce72f02aebc583f -> b01230cbb3dd6aed6939c21b6338ca9f
   custom:scripting/monoscript/fileName/ThirdPersonCamera.cs: 2c2025ecb22a29d0f156eb7b1f1b7100 -> 559e98b455aa331e3dbbc4a3e05e36cf
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 938.294120 seconds.
+  path: Assets/Models/WaterMelon
+  artifactKey: Guid(69dd6bfa5d7ffad44866f37f380eb693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/WaterMelon using Guid(69dd6bfa5d7ffad44866f37f380eb693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfe629cc4db1892aa3e87ee0c5293c35') in 0.001641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.080551 seconds.
+  path: Assets/Models/Watermelon
+  artifactKey: Guid(69dd6bfa5d7ffad44866f37f380eb693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Watermelon using Guid(69dd6bfa5d7ffad44866f37f380eb693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd289b28da94b3e282fede96c230758de') in 0.000496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.369513 seconds.
+  path: Assets/Models/Watermelon/Watermelon-Character.blend
+  artifactKey: Guid(d9a4aa7fcd71a334a97ab36394d9ca68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Watermelon/Watermelon-Character.blend using Guid(d9a4aa7fcd71a334a97ab36394d9ca68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80bfd1877c629be53dfeffc4adbfa5ba') in 0.160060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 120.718840 seconds.
+  path: Assets/Models/Watermelon/Watermelon-Character.blend
+  artifactKey: Guid(d9a4aa7fcd71a334a97ab36394d9ca68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Watermelon/Watermelon-Character.blend using Guid(d9a4aa7fcd71a334a97ab36394d9ca68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab7de7f785e021fde9f8473aa01332c') in 0.080582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 16.312634 seconds.
+  path: Assets/Prefabs/Characters/Orange.prefab
+  artifactKey: Guid(385365a88a967f54dacf9653c6da8202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Characters/Orange.prefab using Guid(385365a88a967f54dacf9653c6da8202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f0fe064155b37591cf5ce887a51123e') in 0.030478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 726
+========================================================================
+Received Import Request.
+  Time since last request: 0.963583 seconds.
+  path: Assets/Prefabs/Characters/Watermelon.prefab
+  artifactKey: Guid(b33d5da16aaa5904c8aa4bd92420754e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Characters/Watermelon.prefab using Guid(b33d5da16aaa5904c8aa4bd92420754e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b639f25e55b124db164987e9d8811a80') in 0.379121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 728
+========================================================================
+Received Import Request.
+  Time since last request: 96.456299 seconds.
+  path: Assets/Animations/Orange/Orange.controller
+  artifactKey: Guid(7b7137f302b89a044b44f68b25fcaebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Orange/Orange.controller using Guid(7b7137f302b89a044b44f68b25fcaebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '661a2116cee4460a9192ffa49ed1a79d') in 0.002844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.491215 seconds.
+  path: Assets/Animations/Orange/Orange 1.controller
+  artifactKey: Guid(3fc67f8a84bb29e4e8111ffbbfe78775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Orange/Orange 1.controller using Guid(3fc67f8a84bb29e4e8111ffbbfe78775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ab72f78d5842eaa0ad832dad9075cc0') in 0.002658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 3.329637 seconds.
+  path: Assets/Animations/Orange/Watermelon.controller
+  artifactKey: Guid(3fc67f8a84bb29e4e8111ffbbfe78775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Orange/Watermelon.controller using Guid(3fc67f8a84bb29e4e8111ffbbfe78775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73b588f9e85ea0435aafab6aa24b7083') in 0.002656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 5.480033 seconds.
+  path: Assets/Animations/Watermelon
+  artifactKey: Guid(3b1613f41989d3143ae4c966e70ead81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Watermelon using Guid(3b1613f41989d3143ae4c966e70ead81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a70283202ea7c859dd422f6f7ebc6a02') in 0.000437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 24.257518 seconds.
+  path: Assets/Materials/Strawberry 1
+  artifactKey: Guid(acf8200e8548e3346842c948c63f985b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Strawberry 1 using Guid(acf8200e8548e3346842c948c63f985b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8016b82045ecdc5b92a955ba3b6c242b') in 0.000431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.315006 seconds.
+  path: Assets/Materials/Orange 1
+  artifactKey: Guid(2824633e0f226b544bbafb0483a55f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Orange 1 using Guid(2824633e0f226b544bbafb0483a55f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '215109434bfbad4aece1be836d08d301') in 0.000485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.841640 seconds.
+  path: Assets/Materials/Watermelon
+  artifactKey: Guid(2824633e0f226b544bbafb0483a55f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Watermelon using Guid(2824633e0f226b544bbafb0483a55f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1863c21d2d3e4b069d76c0f287a0424') in 0.000386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.867967 seconds.
+  path: Assets/Materials/Watermelon/OrangeArms.mat
+  artifactKey: Guid(cfb22ddb821360845afbfb29c1bf7bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Watermelon/OrangeArms.mat using Guid(cfb22ddb821360845afbfb29c1bf7bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc095dcb5816c4dab6808e5cb7b565ee') in 0.011146 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Materials/Watermelon/OrangeNub.mat
+  artifactKey: Guid(9ee9d68f6c7f2c5408da96318e9e5a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Watermelon/OrangeNub.mat using Guid(9ee9d68f6c7f2c5408da96318e9e5a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b54d6161cd31b65c8df633870a745f2d') in 0.012001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Materials/Watermelon/OrangeEyes2.mat
+  artifactKey: Guid(3b07ce1264331e54ab083b23ff2f6c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Watermelon/OrangeEyes2.mat using Guid(3b07ce1264331e54ab083b23ff2f6c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f94b7658a2b3ba9128055d3f97324605') in 0.011076 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Materials/Watermelon/OrangeCheekls.mat
+  artifactKey: Guid(e2f5685bbd988ad4aadef209600f90d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Watermelon/OrangeCheekls.mat using Guid(e2f5685bbd988ad4aadef209600f90d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d5a6fdf3c79b86a6214614109de2f1d') in 0.011340 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Materials/Watermelon/OrangeEyes.mat
+  artifactKey: Guid(e9f5f7b4423d1104fa0f38951d23487a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Watermelon/OrangeEyes.mat using Guid(e9f5f7b4423d1104fa0f38951d23487a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39ebed44f89981da6d10987188039d80') in 0.008632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Materials/Watermelon/OrangeLeaf.mat
+  artifactKey: Guid(8acb48d593f658b47adc1e24fb9ce911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Watermelon/OrangeLeaf.mat using Guid(8acb48d593f658b47adc1e24fb9ce911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ef2f1d495a812e5ee4fa2d1eac71167') in 0.013953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Materials/Watermelon/OrangeMouth.mat
+  artifactKey: Guid(c2bf34910d1cd9b4a9146fdf39044fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Watermelon/OrangeMouth.mat using Guid(c2bf34910d1cd9b4a9146fdf39044fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff589ab28e616018747255ab7f8c31fe') in 0.008160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 5.305685 seconds.
+  path: Assets/Materials/Watermelon/WatermelonArms.mat
+  artifactKey: Guid(cfb22ddb821360845afbfb29c1bf7bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Watermelon/WatermelonArms.mat using Guid(cfb22ddb821360845afbfb29c1bf7bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d7e8b5d796947187e87d56ad1f67e11') in 0.005623 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 9.690478 seconds.
+  path: Assets/Materials/Watermelon/WatermelonBody.mat
+  artifactKey: Guid(f8a803ff0013a6d49bbe8ceb9708424d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Watermelon/WatermelonBody.mat using Guid(f8a803ff0013a6d49bbe8ceb9708424d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a0b925d3648673bf84dc2439fb44c60') in 0.011677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.911455 seconds.
+  path: Assets/Materials/Watermelon/OrangeCheekls 1.mat
+  artifactKey: Guid(e4982ab8efdda264288746c80571c5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Watermelon/OrangeCheekls 1.mat using Guid(e4982ab8efdda264288746c80571c5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fb02a6d5bd1f153f2b459eb64f58f29') in 0.016098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 5.762201 seconds.
+  path: Assets/Materials/Watermelon/WatermelonBody 1.mat
+  artifactKey: Guid(cd1a79c8a83eadf4b94a4034ff426bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Watermelon/WatermelonBody 1.mat using Guid(cd1a79c8a83eadf4b94a4034ff426bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '550e051525964c5ee403924111ab8877') in 0.010922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 3.493367 seconds.
+  path: Assets/Materials/Watermelon/WatermelonEyes.mat
+  artifactKey: Guid(cd1a79c8a83eadf4b94a4034ff426bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Watermelon/WatermelonEyes.mat using Guid(cd1a79c8a83eadf4b94a4034ff426bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54e2408b8b5023201d7840ce51cd692c') in 0.821897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.126390 seconds.
+  path: Assets/Materials/Watermelon/WatermelonEyes 1.mat
+  artifactKey: Guid(f9e599ffd9cfbcc4ba2446e1e1634428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Watermelon/WatermelonEyes 1.mat using Guid(f9e599ffd9cfbcc4ba2446e1e1634428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c17154f3837018556d42ea0df4bec8e7') in 0.008586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 7.181719 seconds.
+  path: Assets/Materials/Watermelon/WatermelonEyebrows.mat
+  artifactKey: Guid(f9e599ffd9cfbcc4ba2446e1e1634428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Watermelon/WatermelonEyebrows.mat using Guid(f9e599ffd9cfbcc4ba2446e1e1634428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45942aa6855a785300dd0aab34e6f017') in 0.010597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.357062 seconds.
+  path: Assets/Materials/Watermelon/WatermelonEyebrows 1.mat
+  artifactKey: Guid(e5e2877aae6f54746a8038253fbc2d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Watermelon/WatermelonEyebrows 1.mat using Guid(e5e2877aae6f54746a8038253fbc2d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93663bba3f2a820975e1d0fff978b915') in 0.009696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 5.879498 seconds.
+  path: Assets/Materials/Watermelon/WatermelonMouth.mat
+  artifactKey: Guid(e5e2877aae6f54746a8038253fbc2d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Watermelon/WatermelonMouth.mat using Guid(e5e2877aae6f54746a8038253fbc2d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8871470461d3783a0bf944c58a5d383') in 0.012542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.436020 seconds.
+  path: Assets/Materials/Watermelon/WatermelonMouth 1.mat
+  artifactKey: Guid(b9c1e682f2b54884281a844b857fae94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Watermelon/WatermelonMouth 1.mat using Guid(b9c1e682f2b54884281a844b857fae94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfdc8ba4131b4a9854d20e96db9f4697') in 0.009820 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 4.209720 seconds.
+  path: Assets/Materials/Watermelon/WatermelonLeaf.mat
+  artifactKey: Guid(b9c1e682f2b54884281a844b857fae94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Watermelon/WatermelonLeaf.mat using Guid(b9c1e682f2b54884281a844b857fae94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f909e974a7d6e317f653ed61493c7f0') in 0.011321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 107.537445 seconds.
+  path: Assets/Models/Watermelon/Watermelon-Character.blend
+  artifactKey: Guid(d9a4aa7fcd71a334a97ab36394d9ca68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Watermelon/Watermelon-Character.blend using Guid(d9a4aa7fcd71a334a97ab36394d9ca68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42395da665bac26938366dbe7d0cda48') in 0.120058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 18.194325 seconds.
+  path: Assets/Models/Watermelon/Watermelon-Character.blend
+  artifactKey: Guid(d9a4aa7fcd71a334a97ab36394d9ca68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Watermelon/Watermelon-Character.blend using Guid(d9a4aa7fcd71a334a97ab36394d9ca68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6dc3b2a22e79d01dc08a0d367de261d') in 0.091061 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 19.276320 seconds.
+  path: Assets/Models/Watermelon/Watermelon-Character.blend
+  artifactKey: Guid(d9a4aa7fcd71a334a97ab36394d9ca68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Watermelon/Watermelon-Character.blend using Guid(d9a4aa7fcd71a334a97ab36394d9ca68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ff114712234c246e46f85c45287b9cc') in 0.065686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 378.534449 seconds.
+  path: Assets/Textures
+  artifactKey: Guid(f042d9147379dbc43ae0a17adfe70ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures using Guid(f042d9147379dbc43ae0a17adfe70ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3239e1bf82d83ec743dcf106d676833a') in 0.000624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 15.391583 seconds.
+  path: Assets/Textures/Watermelon-Texture.psd
+  artifactKey: Guid(2d41148d2415dc14e856068603976f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Watermelon-Texture.psd using Guid(2d41148d2415dc14e856068603976f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dce0422080404ed3748c618aea08c585') in 0.021443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.828558 seconds.
+  path: Assets/Textures/Watermelon-Texture.psd
+  artifactKey: Guid(2d41148d2415dc14e856068603976f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Watermelon-Texture.psd using Guid(2d41148d2415dc14e856068603976f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '956952599c272cc48a90873df8e3c3a8') in 0.027651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.667852 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Brushed Metal 3.jpg
+  artifactKey: Guid(f88677df267a41d6be1e7a6133e7d227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Brushed Metal 3.jpg using Guid(f88677df267a41d6be1e7a6133e7d227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70ea3b062151a62936e009fccd82be14') in 0.020913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.017656 seconds.
+  path: Assets/ImportedAssets/Skybox/Cubemaps/daytime.hdr
+  artifactKey: Guid(1cde0e200e792cb4491204276a656490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Skybox/Cubemaps/daytime.hdr using Guid(1cde0e200e792cb4491204276a656490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fc69e681a6aadc09f344108e10b421b') in 0.230567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001261 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd561f6893285eb56121731527b8748f5') in 0.022419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg
+  artifactKey: Guid(6eb184de103d4b3f812b38561065192f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg using Guid(6eb184de103d4b3f812b38561065192f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c86194476672b0207fcdf3b1b1da83e3') in 0.011733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Fruit Jelly (B&W).jpg
+  artifactKey: Guid(1cdc5b506b1a4a33a53c30669ced1f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Fruit Jelly (B&W).jpg using Guid(1cdc5b506b1a4a33a53c30669ced1f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81acc8ba56e9be482fffb24f1ae3d6f2') in 0.013244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ThirdParty/Ultimate 10 Plus Shaders/Materials/Textures/grass_normal.tga
+  artifactKey: Guid(1c3759435f9363447abb1969a2271472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Ultimate 10 Plus Shaders/Materials/Textures/grass_normal.tga using Guid(1c3759435f9363447abb1969a2271472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db9ab824229a2d0522bdd35ad2ebf56c') in 0.018337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ThirdParty/Ultimate 10 Plus Shaders/Materials/Textures/grass_albedo.tga
+  artifactKey: Guid(f6955516f548167498290fa4664c015c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Ultimate 10 Plus Shaders/Materials/Textures/grass_albedo.tga using Guid(f6955516f548167498290fa4664c015c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa46800314305c07e4f6f2c48f781f86') in 0.013536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ThirdParty/Ultimate 10 Plus Shaders/Scenes/Review/Lightmap-0_comp_dir.png
+  artifactKey: Guid(4b4607cbd6e801646b704e4fb44ac8c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Ultimate 10 Plus Shaders/Scenes/Review/Lightmap-0_comp_dir.png using Guid(4b4607cbd6e801646b704e4fb44ac8c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a403b0422774f4272b7ba865923f974c') in 0.013165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Floor Cement.jpg
+  artifactKey: Guid(283f897e4925411ebbaa758b4cb13fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Floor Cement.jpg using Guid(283f897e4925411ebbaa758b4cb13fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da2c37d047959d1144d80bae23afad10') in 0.011719 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.418 seconds
+Refreshing native plugins compatible for Editor in 2.37 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Ideas Game
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.607 seconds
+Domain Reload Profiling: 3025ms
+	BeginReloadAssembly (178ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (82ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (188ms)
+		LoadAssemblies (242ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (2607ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2254ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (2173ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 3.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3706 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (427.1 KB). Loaded Objects now: 4354.
+Memory consumption went from 198.3 MB to 197.9 MB.
+Total: 3.683800 ms (FindLiveObjects: 0.280200 ms CreateObjectMapping: 0.236900 ms MarkObjects: 2.929000 ms  DeleteObjects: 0.237100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:scripting/monoscript/fileName/CharacterMovement.cs: d399635990a961aca2f515f216de94dd -> 1673cf7be67e51b75e632a5978bb31f2
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:scripting/monoscript/fileName/Projectile.cs: 544a57cf265c3b2e5e8c144813c5e1ad -> 5516e8a450d0b07e85069518e074fad4
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Strawberry.cs: 5339dfe84d3de0539ce72f02aebc583f -> b01230cbb3dd6aed6939c21b6338ca9f
+  custom:scripting/monoscript/fileName/ThirdPersonCamera.cs: 2c2025ecb22a29d0f156eb7b1f1b7100 -> 559e98b455aa331e3dbbc4a3e05e36cf
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

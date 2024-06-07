@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Ledge
   - Ground
+  - Projectile
   layers:
   - Default
   - TransparentFX
